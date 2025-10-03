@@ -81,8 +81,8 @@ class MatriserEnhetsTests {
 	
 	@Test
 	void testSpeile() {
-		
-		int[][] speilet = { {1,4,7}, {2,5,8}, {3,6,9} };
+
+        int[][] speilet = { {3,2,1}, {6,5,4}, {9,8,7} }; //testen skulle spegle, ikke rotere 90 og så spegle
 			
 		int[][] speile = Matriser.speile(a);
 		
